@@ -1,0 +1,30 @@
+<DOCTYPE html>
+<head>
+	<meta name="viewport" contet="width=deveice-width , initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../styles/css/forms.css">
+	<link rel="icon" type="image/x-icon" href="../images/icons/anon.png" >
+	<title>Pc matters</title>
+</head>
+<body background="../images/formback.png">
+	<p style="font-family:arial,sans-serif; 
+			  font-size:30px;
+			  color:white;
+			  text-align: center;
+			  margin-top: 30px;"><u color="white">Tell Us About your problem</u></p>
+	<div id="formdiv" class="form animated lightspeedin">
+		<form id="artical form" action="articalget.php">
+			<input type="text" name="fname" placeholder="first name">
+			<br/>
+			<input type="text" name="lname" placeholder="last name">
+			<br/>
+			<input type="text" name="what_about" placeholder="problem in breif">
+			<br/>
+			<input type="email" name="email" placeholder="Your email Address">
+			<input type="number" name="phoneno" placeholder="Phone number" maxlength="15">
+			<textarea rows="40" cols="25" placeholder="Write your problem here"></textarea>
+			<br/>
+			<input type="submit" class="buttons" onclick="alert("Thnk you! for your support Your artical will added to the site after the admins verified..")">
+			<input type="reset" class="buttons" style="margin-left:auto;">
+		</form>
+	 </div>
+</body>

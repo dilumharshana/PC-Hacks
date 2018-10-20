@@ -1,0 +1,63 @@
+#maindiv{
+	background-color: white;
+	width: 800px;
+	height:3000px;
+	margin-left:20%;
+	padding:10px;
+	margin-top: 2%;
+	border-radius: 10px;
+	box-shadow:0 4px 8px white,0 4px 6px white;
+	border: 2px solid black;
+}
+
+#artname{
+	width:800px;
+	height:40px;
+	border:1px solid blue;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	padding-bottom:6px;
+	border-radius:10px;
+	box-shadow: 3px 3px 8px grey
+}
+
+#heading{
+	font-family: arial;
+	color:red;
+	font-size:20px;
+	text-align: center;
+}
+
+#artwriter{
+	width:500px;
+	height:35px;
+	border:1px solid blue;
+	background:rgba(40,50,60,0.4);
+	margin-bottom: 2%;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	box-shadow: 2px 2px 8px grey
+}
+
+#writter{
+	font-family: impact;
+	color:black;
+	text-shadow: 1px 1px 3px white;
+	font-size:17px;
+	float:left;
+	padding-left:6px;
+}
+
+#artical{
+	width:790px;
+	height:800px;
+	padding-left: 8px;
+}
+
+#note{
+	font-family: arial;
+	color:black;
+	font-size:19px;
+	float: left;
+	line-height:27px;
+}
